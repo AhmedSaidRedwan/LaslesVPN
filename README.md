@@ -24,5 +24,4 @@ This repository contains the source code for the LaslesVPN website. LaslesVPN is
 To view the LaslesVPN website locally, simply clone this repository and open the `index.html` file in a web browser.
 
 ```bash
-git clone https://github.com/yourusername/LaslesVPN-Website.git
-cd LaslesVPN-Website
+https://github.com/AhmedSaidRedwan/LaslesVPN
