@@ -1,0 +1,47 @@
+@mixin mobile {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: 600px) and (max-width: 900px) {
+    @content;
+  }
+}
+@mixin mobile-tablet {
+  @media (max-width: 900px) {
+    @content;
+  }
+}
+@mixin Bigger-than-a-tablet {
+  @media (min-width: 900px) and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin Bigger2-than-a-tablet {
+  @media (min-width: 900px) and (max-width: 1029px) {
+    @content;
+  }
+}
+@mixin smaler-than-a-tablet {
+  @media (max-width: 800px) {
+    @content;
+  }
+}
+@mixin top {
+  @media (max-width: 285px) {
+    @content;
+  }
+}
+@mixin price {
+  @media (max-width: 360px) {
+    @content;
+  }
+}
+@mixin box {
+  @media (max-width: 410px) {
+    @content;
+  }
+}
+
+// -----------
